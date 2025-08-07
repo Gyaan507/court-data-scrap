@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error - Court Data Fetcher</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>⚠️ Error Occurred</h2>
+        <div class="error-message">
+            {{ message }}
+        </div>
+        <a href="/" class="back-link">
+            <span class="icon">←</span>
+            Back to Search
+        </a>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <span>© 2025 Created with</span>
+            <span class="heart">♥</span>
+            <span>by</span>
+            <a href="#" class="creator-name">Gyaneshwar Kumar</a>
+        </div>
+    </footer>
+</body>
+</html>
